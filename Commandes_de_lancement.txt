@@ -1,0 +1,11 @@
+1) Générer d'abord un environnement virtuel 
+python -m venv venv
+
+2) Activer l'environnement virtuel 
+.\venv\Scripts\activate
+
+3) Installer les librairies 
+pip install -r requirements.txt
+
+4) Lancer l'application
+.\venv\Scripts\python -m streamlit run app.py

@@ -1,0 +1,12 @@
+numpy==1.26.4
+opencv-python-headless<4.10.0
+# On remplace Paddle par EasyOCR
+easyocr
+streamlit
+sentence-transformers
+pymupdf
+protobuf==3.20.3
+Pillow
+# Torch est requis par EasyOCR (souvent installé par défaut, mais au cas où)
+torch
+torchvision
